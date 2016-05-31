@@ -1,1 +1,37 @@
-style.css
+body {
+  background: url("../images/jaguar-xe.jpg") no-repeat;
+  background-size: 100%;
+  ba
+  font-family: 'Roboto', sans-serif;
+
+}
+.home {
+  position: absolute;
+  width: 600px;
+  top: 100px;
+  left: 100px;
+  color: white;
+  background-color: rgba(48, 48, 48, 0.8);
+  border-radius: 5px;
+  padding: 0px 18px 25px 18px;
+  font-size: 20px;
+
+}
+
+a{
+  background-color: #DB3030;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}		
+
+@media screen and (max-width: 1000px) {
+  .home{
+    top: 30px;
+    left: 30px;
+    width: 90%;
+    font-size: 16px;
+
+  }
+}
