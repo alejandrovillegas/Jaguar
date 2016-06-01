@@ -1,7 +1,7 @@
 body {
   background: url("../images/jaguar-xe.jpg") no-repeat;
-  background-size: 100%;
-  ba
+  background-size: cover;
+  height: 100%;
   font-family: 'Roboto', sans-serif;
 
 }
@@ -14,7 +14,7 @@ body {
   background-color: rgba(48, 48, 48, 0.8);
   border-radius: 5px;
   padding: 0px 18px 25px 18px;
-  font-size: 20px;
+  font-size: 1.5em;
 
 }
 
@@ -31,7 +31,9 @@ a{
     top: 30px;
     left: 30px;
     width: 90%;
-    font-size: 16px;
+    font-size: 1em;
+    padding: 10px;
 
   }
 }
+
