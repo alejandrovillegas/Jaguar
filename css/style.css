@@ -6,8 +6,7 @@ body {
 
 }
 .home {
-  position: absolute;
-  width: 600px;
+  max-width: 600px;
   top: 100px;
   left: 100px;
   color: white;
